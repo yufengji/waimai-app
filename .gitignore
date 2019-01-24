@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+.DS_Store
+
+# logs
+*.log
+
+# Nuxt generate
+hybrids
+*.zip
+
+package-lock.json
