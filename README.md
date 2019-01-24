@@ -134,4 +134,25 @@ module.exports = {
   ].concat(htmlArray)
 }
 ```
+##### 其中关于babel的配置如下：
+- 安装babel相关的包
+```
+"babel-core": "^6.26.0",
+"babel-eslint": "^8.2.3",
+"babel-loader": "^7.1.4",
+"babel-plugin-react-hot-loader": "^3.0.0-beat.6",
+"babel-preset-es2015": "^6.24.1",
+"babel-preset-stage-0": "^6.24.1",
+"babel-preset-react": "^6.24.1",
+```
+- 根目录下新建.babelrc文件
+```
+{
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ]
+}
+```
 
